@@ -4,6 +4,8 @@ updates periodically. I use it for GRE  and foreign language vocab,
 but it can be used for any other purpose as well. You can run the code again
 to refresh the background page without wait.
 
+Background.jpeg is a sample backgroun.
+
 You can make csv file containing words that are difficult to remember,
 and you will see them everytime you look at your desktop.
 
