@@ -1,0 +1,9 @@
+MACOS MOJAVE VERSION 10.14.15 (would probably work on later version, but not guaranteed)
+
+Python3
+
+Pandas:
+https://pypi.org/project/pandas/
+
+Pillow/PIL:
+https://pypi.org/project/Pillow/
