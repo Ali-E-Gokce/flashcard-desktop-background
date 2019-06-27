@@ -2,6 +2,7 @@ Takes a csv file with words and their meanings, and changes your desktop
 background to a flashcard like screen to help you memorize those words.
 I use it for GRE  and foreign language vocab,
 but it can be used for any other purpose as well.
+Background.jpeg is a sample one.
 
 You can make csv file containing words that are difficult to remember,
 and you will see them everytime you look at your desktop.
