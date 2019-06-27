@@ -1,7 +1,8 @@
 Takes a csv file with words and their meanings, and changes your desktop
-background to a flashcard like screen to help you memorize those words.
-I use it for GRE  and foreign language vocab,
-but it can be used for any other purpose as well.
+background to a flashcard like screen to help you memorize those words, which
+updates periodically. I use it for GRE  and foreign language vocab,
+but it can be used for any other purpose as well. You can run the code again
+to refresh the background page without wait.
 
 You can make csv file containing words that are difficult to remember,
 and you will see them everytime you look at your desktop.
@@ -31,5 +32,5 @@ To run it on windows, you can look use ctypes.
 The computer might momentarily freeze when the background is being changed,
 this is unlikely to be noticeable unless the BACKGROUND_SWAP_INTERVAL is very low.
 
-For information on how to customize the program for your need, 
+For information on how to customize the program for your need,
 take a look at comments.txt

@@ -1,5 +1,4 @@
 from random import sample
-
 """
 I scraped the colors off:
 https://www.rapidtables.com/web/color/html-color-codes.html
