@@ -1,13 +1,3 @@
-THIS WORKS ON MACOS MOJAVE VERSION 10.14.15
-I DON'T GUARANTEE IT WILL WORK ON ANY OTHER MACOS VERSION!!!
-Changing the desktop background from the command line is system specific,
-and might not work on other systems. If you want to run it on another
-operating system, all you need to change is
-To run it on windows, you can look use ctypes.
-
-The computer might momentarily freeze when the background is being changed,
-this is unlikely to be noticeable unless the BACKGROUND_SWAP_INTERVAL is very low.
-
 The variables that you need to change to cusomtize the program are on
 the top of the code. The variables are as follows:
 
