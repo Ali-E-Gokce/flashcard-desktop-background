@@ -1,5 +1,5 @@
 from random import sample
-from time import time
+
 """
 I scraped the colors off:
 https://www.rapidtables.com/web/color/html-color-codes.html
