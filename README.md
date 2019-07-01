@@ -4,6 +4,13 @@ updates periodically. I use it for GRE  and foreign language vocab,
 but it can be used for any other purpose as well. You can run the code again
 to refresh the background page without wait.
 
+add_word.py can be used to add English words to your list of words
+you want to learn. It will provide the meaning and a sample sentence
+when possible. It is called like:
+python add_word.py word_to_be_added
+word_to_be_added is optional, and if not given the program will ask you
+for words in a while loop, which is useful during studying.
+
 Background.jpeg is a sample backgroun.
 
 You can make csv file containing words that are difficult to remember,
