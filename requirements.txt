@@ -1,3 +1,4 @@
+For the background setter:
 MACOS MOJAVE VERSION 10.14.15 (would probably work on later version, but not guaranteed)
 
 Python3
@@ -7,3 +8,13 @@ https://pypi.org/project/pandas/
 
 Pillow/PIL:
 https://pypi.org/project/Pillow/
+
+For the GRE vocab adder:
+Natural Language Tool Kit
+https://pypi.org/project/nltk/
+
+If the wordnet package is not installed, run this in a python terminal/code
+the first time you run it:
+
+import nltk
+nltk.download('wordnet')
