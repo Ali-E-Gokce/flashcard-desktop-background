@@ -11,7 +11,7 @@ OUT_PATH = "/Users/alierengokcelioglu/desktop/personal_coding/flashcard-desktop-
 #to leave empty space on the right side of the screen
 #depends on how full your desktop is.
 #You might want to keep it low if you have very long input sentences
-RIGHT_GAP = 1600
+RIGHT_GAP = 600
 #name of the file where the vocabulary is saved
 INPUT_PATH = "vocab.csv"
 #you can find other fonds online
