@@ -11,7 +11,7 @@ OUT_PATH = "/Users/alierengokcelioglu/desktop/personal_coding/flashcard-desktop-
 #to leave empty space on the right side of the screen
 #depends on how full your desktop is.
 #You might want to keep it low if you have very long input sentences
-RIGHT_GAP = 1600
+RIGHT_GAP = 800
 #name of the file where the vocabulary is saved
 INPUT_PATH = "vocab.csv"
 #you can find other fonds online
@@ -31,7 +31,7 @@ killall Dock"""
 
 #this won't work if there is more than one monitor attached
 #but is the only way I could think of that does not require
-#extra dependencies and works regardless of OS
+#extra dependencies and works regardless of OSf
 def get_screen_size():
     root = tk.Tk()
     width = root.winfo_screenwidth()
@@ -60,7 +60,7 @@ def split_sentence(text):
     #the width of the sentence in the given font
     text_width = TEXT_FONT.getsize(text)[0]
 
-    if text_width < screen_width:
+    if text_width < screen_width - RIGHT_GAP:
         lines = [text]
     else:
         words = text.split(" ")
