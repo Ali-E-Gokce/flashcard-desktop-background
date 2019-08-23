@@ -71,6 +71,7 @@ def split_sentence(text):
             if TEXT_FONT.getsize(sentence)[0] + RIGHT_GAP < screen_width:
                 sentence += i + " "
             else:
+                sentence += i + " "
                 lines.append(sentence)
                 sentence = ""
         #append last sentence, unless it's an empty sentnece
